@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div className="flex items-center justify-between w-4/5 mx-auto py-8">
+    <div className="flex items-center justify-evenly md:justify-between w-full lg:w-4/5 mx-auto py-8">
       <Link href="/">
         <Image src="/Images/home.png" width={25} height={25} alt="home logo" />
       </Link>
-      <div className="text-sm font-bold flex items-center gap-6 ">
+      <div className="text-xs lg:text-sm font-medium decoration-4 flex items-center gap-6 ">
         <Link
           href="#"
           className="underline-offset-4 underline decoration-[#1F75FE] hover:text-blue-600"
