@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="my-10">
+    <div id="skills" className="my-10">
       {/* <h1 className="text-center text-5xl font-light my-8">Skills</h1> */}
       <div className="w-full inline-flex flex-nowrap overflow-hidden my-8">
         <ul className="animate-infinite-scroll flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
