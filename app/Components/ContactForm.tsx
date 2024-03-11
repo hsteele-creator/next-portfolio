@@ -4,25 +4,9 @@ export default function ContactForm() {
   return (
     <div className="w-full mr-auto py-6 flex flex-col lg:flex-row justify-between">
       <div className="flex flex-col gap-4 text-xs">
-        <h1 id="contact" className="text-left text-5xl font-medium my-8">Contact Info</h1>
-
-        <div className="flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-            />
-          </svg>
-          <p>Harrybsteele@gmail.com</p>
-        </div>
+        <h1 id="contact" className="text-left text-5xl font-medium my-8">
+          Contact Info
+        </h1>
         <div className="flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,6 +25,27 @@ export default function ContactForm() {
 
           <p>404-457-4570</p>
         </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+            />
+          </svg>
+          <a href="mailto:harrybsteele@gmail.com">
+            <p>Harrybsteele@gmail.com</p>
+          </a>
+        </div>
+
         <div className="flex items-center gap-2">
           <Image
             width={20}
@@ -48,7 +53,9 @@ export default function ContactForm() {
             alt="linkedin"
             src="/Images/linkedin.png"
           />
-          <p>https://www.linkedin.com/in/harry-b-steele</p>
+          <p>
+            https://www.linkedin.com/in/harry-b-steele
+          </p>
         </div>
         <div className="flex items-center gap-2">
           <Image

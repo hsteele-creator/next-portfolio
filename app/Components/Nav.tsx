@@ -29,15 +29,15 @@ export default function Nav() {
       </div>
 
       <div className="flex items-center gap-4">
-        <Link href="/linkedin.com">
+        <a target="_blank" href="https://github.com/hsteele-creator">
           <Image
             src="/Images/github.png"
             width={25}
             height={25}
             alt="github logo"
           />
-        </Link>
-        <Link href="linkedin.com">
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/harry-b-steele/">
           {" "}
           <Image
             src="/Images/linkedin.png"
@@ -45,7 +45,7 @@ export default function Nav() {
             height={25}
             alt="linkedin logo"
           />
-        </Link>
+        </a>
       </div>
     </div>
   );

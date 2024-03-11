@@ -35,7 +35,7 @@ export default function Project({
           })}
         </div>
         <div className="my-2 flex gap-2 items-center">
-          <Link href={github}>
+          <a target="_blank" href={github}>
             <button className="flex items-center gap-1 border px-2 py-1 rounded-md">
               <Image
                 bg-black
@@ -46,12 +46,12 @@ export default function Project({
               />
               <p className="text-[10px]">Github</p>
             </button>
-          </Link>
-          <Link href={link}>
+          </a>
+          <a target="_blank" href={link}>
             <button className="bg-[#1F75FE] text-white text-[10px] px-2 py-1 rounded-md">
               Check it Out
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
